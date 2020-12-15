@@ -841,6 +841,39 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@commitlint/execute-rule@^11.0.0":
+  version "11.0.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/@commitlint/execute-rule/-/execute-rule-11.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40commitlint%2Fexecute-rule%2F-%2Fexecute-rule-11.0.0.tgz#3ed60ab7a33019e58d90e2d891b75d7df77b4b4d"
+  integrity sha1-PtYKt6MwGeWNkOLYkbddffd7S00=
+
+"@commitlint/load@>6.1.1":
+  version "11.0.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/@commitlint/load/-/load-11.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40commitlint%2Fload%2F-%2Fload-11.0.0.tgz#f736562f0ffa7e773f8808fea93319042ee18211"
+  integrity sha1-9zZWLw/6fnc/iAj+qTMZBC7hghE=
+  dependencies:
+    "@commitlint/execute-rule" "^11.0.0"
+    "@commitlint/resolve-extends" "^11.0.0"
+    "@commitlint/types" "^11.0.0"
+    chalk "4.1.0"
+    cosmiconfig "^7.0.0"
+    lodash "^4.17.19"
+    resolve-from "^5.0.0"
+
+"@commitlint/resolve-extends@^11.0.0":
+  version "11.0.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/@commitlint/resolve-extends/-/resolve-extends-11.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40commitlint%2Fresolve-extends%2F-%2Fresolve-extends-11.0.0.tgz#158ecbe27d4a2a51d426111a01478e216fbb1036"
+  integrity sha1-FY7L4n1KKlHUJhEaAUeOIW+7EDY=
+  dependencies:
+    import-fresh "^3.0.0"
+    lodash "^4.17.19"
+    resolve-from "^5.0.0"
+    resolve-global "^1.0.0"
+
+"@commitlint/types@^11.0.0":
+  version "11.0.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/@commitlint/types/-/types-11.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40commitlint%2Ftypes%2F-%2Ftypes-11.0.0.tgz#719cf05fcc1abb6533610a2e0f5dd1e61eac14fe"
+  integrity sha1-cZzwX8wau2UzYQouD13R5h6sFP4=
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40istanbuljs%2Fload-nyc-config%2F-%2Fload-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
@@ -1230,12 +1263,27 @@ ajv@^6.12.3:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
+ansi-escapes@^3.2.0:
+  version "3.2.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/ansi-escapes/-/ansi-escapes-3.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fansi-escapes%2F-%2Fansi-escapes-3.2.0.tgz#8780b98ff9dbf5638152d1f1fe5c1d7b4442976b"
+  integrity sha1-h4C5j/nb9WOBUtHx/lwde0RCl2s=
+
 ansi-escapes@^4.2.1:
   version "4.3.1"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/ansi-escapes/-/ansi-escapes-4.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fansi-escapes%2F-%2Fansi-escapes-4.3.1.tgz#a5c47cc43181f1f38ffd7076837700d395522a61"
   integrity sha1-pcR8xDGB8fOP/XB2g3cA05VSKmE=
   dependencies:
     type-fest "^0.11.0"
+
+ansi-regex@^3.0.0:
+  version "3.0.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/ansi-regex/-/ansi-regex-3.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fansi-regex%2F-%2Fansi-regex-3.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fansi-regex%2F-%2Fansi-regex-3.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fansi-regex%2F-%2Fansi-regex-3.0.0.tgz#ed0317c322064f79466c02966bddb605ab37d998"
+  integrity sha1-7QMXwyIGT3lGbAKWa922Bas32Zg=
+
+ansi-regex@^4.1.0:
+  version "4.1.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/ansi-regex/-/ansi-regex-4.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fansi-regex%2F-%2Fansi-regex-4.1.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fansi-regex%2F-%2Fansi-regex-4.1.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fansi-regex%2F-%2Fansi-regex-4.1.0.tgz#8b9f8f08cf1acb843756a839ca8c7e3168c51997"
+  integrity sha1-i5+PCM8ay4Q3Vqg5yox+MWjFGZc=
 
 ansi-regex@^5.0.0:
   version "5.0.0"
@@ -1523,6 +1571,11 @@ cache-base@^1.0.1:
     union-value "^1.0.0"
     unset-value "^1.0.0"
 
+cachedir@2.2.0:
+  version "2.2.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/cachedir/-/cachedir-2.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcachedir%2F-%2Fcachedir-2.2.0.tgz#19afa4305e05d79e417566882e0c8f960f62ff0e"
+  integrity sha1-Ga+kMF4F155BdWaILgyPlg9i/w4=
+
 call-bind@^1.0.0:
   version "1.0.0"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/call-bind/-/call-bind-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcall-bind%2F-%2Fcall-bind-1.0.0.tgz#24127054bb3f9bdcb4b1fb82418186072f77b8ce"
@@ -1563,7 +1616,15 @@ caseless@~0.12.0:
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/caseless/-/caseless-0.12.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcaseless%2F-%2Fcaseless-0.12.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fcaseless%2F-%2Fcaseless-0.12.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fcaseless%2F-%2Fcaseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
-chalk@^2.0.0, chalk@^2.4.1:
+chalk@4.1.0, chalk@^4.0.0:
+  version "4.1.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/chalk/-/chalk-4.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fchalk%2F-%2Fchalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
+  integrity sha1-ThSHCmGNni7dl92DRf2dncMVZGo=
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
+chalk@^2.0.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/chalk/-/chalk-2.4.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fchalk%2F-%2Fchalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   integrity sha1-zUJUFnelQzPPVBpJEIwUMrRMlCQ=
@@ -1572,18 +1633,15 @@ chalk@^2.0.0, chalk@^2.4.1:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^4.0.0:
-  version "4.1.0"
-  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/chalk/-/chalk-4.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fchalk%2F-%2Fchalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
-  integrity sha1-ThSHCmGNni7dl92DRf2dncMVZGo=
-  dependencies:
-    ansi-styles "^4.1.0"
-    supports-color "^7.1.0"
-
 char-regex@^1.0.2:
   version "1.0.2"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/char-regex/-/char-regex-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fchar-regex%2F-%2Fchar-regex-1.0.2.tgz#d744358226217f981ed58f479b1d6bcc29545dcf"
   integrity sha1-10Q1giYhf5ge1Y9Hmx1rzClUXc8=
+
+chardet@^0.7.0:
+  version "0.7.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/chardet/-/chardet-0.7.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fchardet%2F-%2Fchardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
+  integrity sha1-kAlISfCTfy7twkJdDSip5fDLrZ4=
 
 ci-info@^2.0.0:
   version "2.0.0"
@@ -1604,6 +1662,18 @@ class-utils@^0.3.5:
     define-property "^0.2.5"
     isobject "^3.0.0"
     static-extend "^0.1.1"
+
+cli-cursor@^2.1.0:
+  version "2.1.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/cli-cursor/-/cli-cursor-2.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcli-cursor%2F-%2Fcli-cursor-2.1.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fcli-cursor%2F-%2Fcli-cursor-2.1.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fcli-cursor%2F-%2Fcli-cursor-2.1.0.tgz#b35dac376479facc3e94747d41d0d0f5238ffcb5"
+  integrity sha1-s12sN2R5+sw+lHR9QdDQ9SOP/LU=
+  dependencies:
+    restore-cursor "^2.0.0"
+
+cli-width@^2.0.0:
+  version "2.2.1"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/cli-width/-/cli-width-2.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcli-width%2F-%2Fcli-width-2.2.1.tgz#b0433d0b4e9c847ef18868a4ef16fd5fc8271c48"
+  integrity sha1-sEM9C06chH7xiGik7xb9X8gnHEg=
 
 cliui@^6.0.0:
   version "6.0.0"
@@ -1668,6 +1738,26 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
+commitizen@^4.0.3:
+  version "4.2.2"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/commitizen/-/commitizen-4.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcommitizen%2F-%2Fcommitizen-4.2.2.tgz#1a93dd07208521ea1ebbf832593542dac714cc79"
+  integrity sha1-GpPdByCFIeoeu/gyWTVC2scUzHk=
+  dependencies:
+    cachedir "2.2.0"
+    cz-conventional-changelog "3.3.0"
+    dedent "0.7.0"
+    detect-indent "6.0.0"
+    find-node-modules "2.0.0"
+    find-root "1.1.0"
+    fs-extra "8.1.0"
+    glob "7.1.4"
+    inquirer "6.5.2"
+    is-utf8 "^0.2.1"
+    lodash "^4.17.20"
+    minimist "1.2.5"
+    strip-bom "4.0.0"
+    strip-json-comments "3.0.1"
+
 commondir@^1.0.1:
   version "1.0.1"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/commondir/-/commondir-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcommondir%2F-%2Fcommondir-1.0.1.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fcommondir%2F-%2Fcommondir-1.0.1.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fcommondir%2F-%2Fcommondir-1.0.1.tgz#ddd800da0c66127393cca5950ea968a3aaf1253b"
@@ -1682,6 +1772,11 @@ concat-map@0.0.1:
   version "0.0.1"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/concat-map/-/concat-map-0.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fconcat-map%2F-%2Fconcat-map-0.0.1.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fconcat-map%2F-%2Fconcat-map-0.0.1.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fconcat-map%2F-%2Fconcat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
+
+conventional-commit-types@^3.0.0:
+  version "3.0.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/conventional-commit-types/-/conventional-commit-types-3.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fconventional-commit-types%2F-%2Fconventional-commit-types-3.0.0.tgz#7c9214e58eae93e85dd66dbfbafe7e4fffa2365b"
+  integrity sha1-fJIU5Y6uk+hd1m2/uv5+T/+iNls=
 
 convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.7.0"
@@ -1761,6 +1856,20 @@ cssstyle@^2.2.0:
   dependencies:
     cssom "~0.3.6"
 
+cz-conventional-changelog@3.3.0:
+  version "3.3.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/cz-conventional-changelog/-/cz-conventional-changelog-3.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fcz-conventional-changelog%2F-%2Fcz-conventional-changelog-3.3.0.tgz#9246947c90404149b3fe2cf7ee91acad3b7d22d2"
+  integrity sha1-kkaUfJBAQUmz/iz37pGsrTt9ItI=
+  dependencies:
+    chalk "^2.4.1"
+    commitizen "^4.0.3"
+    conventional-commit-types "^3.0.0"
+    lodash.map "^4.5.1"
+    longest "^2.0.1"
+    word-wrap "^1.0.3"
+  optionalDependencies:
+    "@commitlint/load" ">6.1.1"
+
 dashdash@^1.12.0:
   version "1.14.1"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/dashdash/-/dashdash-1.14.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdashdash%2F-%2Fdashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
@@ -1806,6 +1915,11 @@ decode-uri-component@^0.2.0:
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/decode-uri-component/-/decode-uri-component-0.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdecode-uri-component%2F-%2Fdecode-uri-component-0.2.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fdecode-uri-component%2F-%2Fdecode-uri-component-0.2.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fdecode-uri-component%2F-%2Fdecode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
   integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
 
+dedent@0.7.0:
+  version "0.7.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/dedent/-/dedent-0.7.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdedent%2F-%2Fdedent-0.7.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fdedent%2F-%2Fdedent-0.7.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fdedent%2F-%2Fdedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
+  integrity sha1-JJXduvbrh0q7Dhvp3yLS5aVEMmw=
+
 deep-is@~0.1.3:
   version "0.1.3"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/deep-is/-/deep-is-0.1.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdeep-is%2F-%2Fdeep-is-0.1.3.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fdeep-is%2F-%2Fdeep-is-0.1.3.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fdeep-is%2F-%2Fdeep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
@@ -1849,6 +1963,16 @@ delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/delayed-stream/-/delayed-stream-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdelayed-stream%2F-%2Fdelayed-stream-1.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fdelayed-stream%2F-%2Fdelayed-stream-1.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fdelayed-stream%2F-%2Fdelayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
+
+detect-file@^1.0.0:
+  version "1.0.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/detect-file/-/detect-file-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdetect-file%2F-%2Fdetect-file-1.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fdetect-file%2F-%2Fdetect-file-1.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fdetect-file%2F-%2Fdetect-file-1.0.0.tgz#f0d66d03672a825cb1b73bdb3fe62310c8e552b7"
+  integrity sha1-8NZtA2cqglyxtzvbP+YjEMjlUrc=
+
+detect-indent@6.0.0:
+  version "6.0.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/detect-indent/-/detect-indent-6.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdetect-indent%2F-%2Fdetect-indent-6.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fdetect-indent%2F-%2Fdetect-indent-6.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fdetect-indent%2F-%2Fdetect-indent-6.0.0.tgz#0abd0f549f69fc6659a254fe96786186b6f528fd"
+  integrity sha1-Cr0PVJ9p/GZZolT+lnhhhrb1KP0=
 
 detect-newline@^3.0.0:
   version "3.1.0"
@@ -2034,6 +2158,13 @@ expand-brackets@^2.1.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+expand-tilde@^2.0.0, expand-tilde@^2.0.2:
+  version "2.0.2"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/expand-tilde/-/expand-tilde-2.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fexpand-tilde%2F-%2Fexpand-tilde-2.0.2.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fexpand-tilde%2F-%2Fexpand-tilde-2.0.2.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fexpand-tilde%2F-%2Fexpand-tilde-2.0.2.tgz#97e801aa052df02454de46b02bf621642cdc8502"
+  integrity sha1-l+gBqgUt8CRU3kawK/YhZCzchQI=
+  dependencies:
+    homedir-polyfill "^1.0.1"
+
 expect@^26.6.2:
   version "26.6.2"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/expect/-/expect-26.6.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fexpect%2F-%2Fexpect-26.6.2.tgz#c6b996bf26bf3fe18b67b2d0f51fc981ba934417"
@@ -2065,6 +2196,15 @@ extend@~3.0.2:
   version "3.0.2"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/extend/-/extend-3.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fextend%2F-%2Fextend-3.0.2.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fextend%2F-%2Fextend-3.0.2.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fextend%2F-%2Fextend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
   integrity sha1-+LETa0Bx+9jrFAr/hYsQGewpFfo=
+
+external-editor@^3.0.3:
+  version "3.1.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/external-editor/-/external-editor-3.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fexternal-editor%2F-%2Fexternal-editor-3.1.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fexternal-editor%2F-%2Fexternal-editor-3.1.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fexternal-editor%2F-%2Fexternal-editor-3.1.0.tgz#cb03f740befae03ea4d283caed2741a83f335495"
+  integrity sha1-ywP3QL764D6k0oPK7SdBqD8zVJU=
+  dependencies:
+    chardet "^0.7.0"
+    iconv-lite "^0.4.24"
+    tmp "^0.0.33"
 
 extglob@^2.0.4:
   version "2.0.4"
@@ -2112,6 +2252,13 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "2.1.1"
 
+figures@^2.0.0:
+  version "2.0.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/figures/-/figures-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ffigures%2F-%2Ffigures-2.0.0.tgz#3ab1a2d2a62c8bfb431a0c94cb797a2fce27c962"
+  integrity sha1-OrGi0qYsi/tDGgyUy3l6L84nyWI=
+  dependencies:
+    escape-string-regexp "^1.0.5"
+
 fill-range@^4.0.0:
   version "4.0.0"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/fill-range/-/fill-range-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ffill-range%2F-%2Ffill-range-4.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Ffill-range%2F-%2Ffill-range-4.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Ffill-range%2F-%2Ffill-range-4.0.0.tgz#d544811d428f98eb06a63dc402d2403c328c38f7"
@@ -2129,6 +2276,19 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
+find-node-modules@2.0.0:
+  version "2.0.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/find-node-modules/-/find-node-modules-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ffind-node-modules%2F-%2Ffind-node-modules-2.0.0.tgz#5db1fb9e668a3d451db3d618cd167cdd59e41b69"
+  integrity sha1-XbH7nmaKPUUds9YYzRZ83VnkG2k=
+  dependencies:
+    findup-sync "^3.0.0"
+    merge "^1.2.1"
+
+find-root@1.1.0:
+  version "1.1.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/find-root/-/find-root-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ffind-root%2F-%2Ffind-root-1.1.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Ffind-root%2F-%2Ffind-root-1.1.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Ffind-root%2F-%2Ffind-root-1.1.0.tgz#abcfc8ba76f708c42a97b3d685b7e9450bfb9ce4"
+  integrity sha1-q8/Iunb3CMQql7PWhbfpRQv7nOQ=
+
 find-up@^4.0.0, find-up@^4.1.0:
   version "4.1.0"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/find-up/-/find-up-4.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ffind-up%2F-%2Ffind-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
@@ -2136,6 +2296,16 @@ find-up@^4.0.0, find-up@^4.1.0:
   dependencies:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
+
+findup-sync@^3.0.0:
+  version "3.0.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/findup-sync/-/findup-sync-3.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ffindup-sync%2F-%2Ffindup-sync-3.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Ffindup-sync%2F-%2Ffindup-sync-3.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Ffindup-sync%2F-%2Ffindup-sync-3.0.0.tgz#17b108f9ee512dfb7a5c7f3c8b27ea9e1a9c08d1"
+  integrity sha1-F7EI+e5RLft6XH88iyfqnhqcCNE=
+  dependencies:
+    detect-file "^1.0.0"
+    is-glob "^4.0.0"
+    micromatch "^3.0.4"
+    resolve-dir "^1.0.1"
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -2162,6 +2332,15 @@ fragment-cache@^0.2.1:
   integrity sha1-QpD60n8T6Jvn8zeZxrxaCr//DRk=
   dependencies:
     map-cache "^0.2.2"
+
+fs-extra@8.1.0:
+  version "8.1.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/fs-extra/-/fs-extra-8.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ffs-extra%2F-%2Ffs-extra-8.1.0.tgz#49d43c45a88cd9677668cb7be1b46efdb8d2e1c0"
+  integrity sha1-SdQ8RaiM2Wd2aMt74bRu/bjS4cA=
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^4.0.0"
+    universalify "^0.1.0"
 
 fs.realpath@^1.0.0:
   version "1.0.0"
@@ -2233,6 +2412,18 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
+glob@7.1.4:
+  version "7.1.4"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/glob/-/glob-7.1.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fglob%2F-%2Fglob-7.1.4.tgz#aa608a2f6c577ad357e1ae5a5c26d9a8d1969255"
+  integrity sha1-qmCKL2xXetNX4a5aXCbZqNGWklU=
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^3.0.4"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
+
 glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
   version "7.1.6"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/glob/-/glob-7.1.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fglob%2F-%2Fglob-7.1.6.tgz#141f33b81a7c2492e125594307480c46679278a6"
@@ -2245,12 +2436,39 @@ glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
+global-dirs@^0.1.1:
+  version "0.1.1"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/global-dirs/-/global-dirs-0.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fglobal-dirs%2F-%2Fglobal-dirs-0.1.1.tgz#b319c0dd4607f353f3be9cca4c72fc148c49f445"
+  integrity sha1-sxnA3UYH81PzvpzKTHL8FIxJ9EU=
+  dependencies:
+    ini "^1.3.4"
+
+global-modules@^1.0.0:
+  version "1.0.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/global-modules/-/global-modules-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fglobal-modules%2F-%2Fglobal-modules-1.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fglobal-modules%2F-%2Fglobal-modules-1.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fglobal-modules%2F-%2Fglobal-modules-1.0.0.tgz#6d770f0eb523ac78164d72b5e71a8877265cc3ea"
+  integrity sha1-bXcPDrUjrHgWTXK15xqIdyZcw+o=
+  dependencies:
+    global-prefix "^1.0.1"
+    is-windows "^1.0.1"
+    resolve-dir "^1.0.0"
+
+global-prefix@^1.0.1:
+  version "1.0.2"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/global-prefix/-/global-prefix-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fglobal-prefix%2F-%2Fglobal-prefix-1.0.2.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fglobal-prefix%2F-%2Fglobal-prefix-1.0.2.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fglobal-prefix%2F-%2Fglobal-prefix-1.0.2.tgz#dbf743c6c14992593c655568cb66ed32c0122ebe"
+  integrity sha1-2/dDxsFJklk8ZVVoy2btMsASLr4=
+  dependencies:
+    expand-tilde "^2.0.2"
+    homedir-polyfill "^1.0.1"
+    ini "^1.3.4"
+    is-windows "^1.0.1"
+    which "^1.2.14"
+
 globals@^11.1.0:
   version "11.12.0"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/globals/-/globals-11.12.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fglobals%2F-%2Fglobals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
   integrity sha1-q4eVM4hooLq9hSV1gBjCp+uVxC4=
 
-graceful-fs@^4.1.2, graceful-fs@^4.2.4:
+graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4:
   version "4.2.4"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/graceful-fs/-/graceful-fs-4.2.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fgraceful-fs%2F-%2Fgraceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
   integrity sha1-Ila94U02MpWMRl68ltxGfKB6Kfs=
@@ -2326,6 +2544,13 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+homedir-polyfill@^1.0.1:
+  version "1.0.3"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/homedir-polyfill/-/homedir-polyfill-1.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fhomedir-polyfill%2F-%2Fhomedir-polyfill-1.0.3.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fhomedir-polyfill%2F-%2Fhomedir-polyfill-1.0.3.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fhomedir-polyfill%2F-%2Fhomedir-polyfill-1.0.3.tgz#743298cef4e5af3e194161fbadcc2151d3a058e8"
+  integrity sha1-dDKYzvTlrz4ZQWH7rcwhUdOgWOg=
+  dependencies:
+    parse-passwd "^1.0.0"
+
 hosted-git-info@^2.1.4:
   version "2.8.8"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/hosted-git-info/-/hosted-git-info-2.8.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fhosted-git-info%2F-%2Fhosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
@@ -2357,14 +2582,14 @@ human-signals@^1.1.1:
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/human-signals/-/human-signals-1.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fhuman-signals%2F-%2Fhuman-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
   integrity sha1-xbHNFPUK6uCatsWf5jujOV/k36M=
 
-iconv-lite@0.4.24:
+iconv-lite@0.4.24, iconv-lite@^0.4.24:
   version "0.4.24"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/iconv-lite/-/iconv-lite-0.4.24.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ficonv-lite%2F-%2Ficonv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   integrity sha1-ICK0sl+93CHS9SSXSkdKr+czkIs=
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
-import-fresh@^3.2.1:
+import-fresh@^3.0.0, import-fresh@^3.2.1:
   version "3.2.2"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/import-fresh/-/import-fresh-3.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fimport-fresh%2F-%2Fimport-fresh-3.2.2.tgz#fc129c160c5d68235507f4331a6baad186bdbc3e"
   integrity sha1-/BKcFgxdaCNVB/QzGmuq0Ya9vD4=
@@ -2397,6 +2622,30 @@ inherits@2:
   version "2.0.4"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/inherits/-/inherits-2.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Finherits%2F-%2Finherits-2.0.4.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Finherits%2F-%2Finherits-2.0.4.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Finherits%2F-%2Finherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w=
+
+ini@^1.3.4:
+  version "1.3.8"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/ini/-/ini-1.3.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fini%2F-%2Fini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
+  integrity sha1-op2kJbSIBvNHZ6Tvzjlyaa8oQyw=
+
+inquirer@6.5.2:
+  version "6.5.2"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/inquirer/-/inquirer-6.5.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Finquirer%2F-%2Finquirer-6.5.2.tgz#ad50942375d036d327ff528c08bd5fab089928ca"
+  integrity sha1-rVCUI3XQNtMn/1KMCL1fqwiZKMo=
+  dependencies:
+    ansi-escapes "^3.2.0"
+    chalk "^2.4.2"
+    cli-cursor "^2.1.0"
+    cli-width "^2.0.0"
+    external-editor "^3.0.3"
+    figures "^2.0.0"
+    lodash "^4.17.12"
+    mute-stream "0.0.7"
+    run-async "^2.2.0"
+    rxjs "^6.4.0"
+    string-width "^2.1.0"
+    strip-ansi "^5.1.0"
+    through "^2.3.6"
 
 ip-regex@^2.1.0:
   version "2.1.0"
@@ -2500,6 +2749,16 @@ is-extendable@^1.0.1:
   dependencies:
     is-plain-object "^2.0.4"
 
+is-extglob@^2.1.1:
+  version "2.1.1"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/is-extglob/-/is-extglob-2.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-extglob%2F-%2Fis-extglob-2.1.1.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fis-extglob%2F-%2Fis-extglob-2.1.1.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fis-extglob%2F-%2Fis-extglob-2.1.1.tgz#a88c02535791f02ed37c76a1b9ea9773c833f8c2"
+  integrity sha1-qIwCU1eR8C7TfHahueqXc8gz+MI=
+
+is-fullwidth-code-point@^2.0.0:
+  version "2.0.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-fullwidth-code-point%2F-%2Fis-fullwidth-code-point-2.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fis-fullwidth-code-point%2F-%2Fis-fullwidth-code-point-2.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fis-fullwidth-code-point%2F-%2Fis-fullwidth-code-point-2.0.0.tgz#a3b30a5c4f199183167aaab93beefae3ddfb654f"
+  integrity sha1-o7MKXE8ZkYMWeqq5O+764937ZU8=
+
 is-fullwidth-code-point@^3.0.0:
   version "3.0.0"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-fullwidth-code-point%2F-%2Fis-fullwidth-code-point-3.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fis-fullwidth-code-point%2F-%2Fis-fullwidth-code-point-3.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fis-fullwidth-code-point%2F-%2Fis-fullwidth-code-point-3.0.0.tgz#f116f8064fe90b3f7844a38997c0b75051269f1d"
@@ -2509,6 +2768,13 @@ is-generator-fn@^2.0.0:
   version "2.1.0"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/is-generator-fn/-/is-generator-fn-2.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-generator-fn%2F-%2Fis-generator-fn-2.1.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fis-generator-fn%2F-%2Fis-generator-fn-2.1.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fis-generator-fn%2F-%2Fis-generator-fn-2.1.0.tgz#7d140adc389aaf3011a8f2a2a4cfa6faadffb118"
   integrity sha1-fRQK3DiarzARqPKipM+m+q3/sRg=
+
+is-glob@^4.0.0:
+  version "4.0.1"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/is-glob/-/is-glob-4.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-glob%2F-%2Fis-glob-4.0.1.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fis-glob%2F-%2Fis-glob-4.0.1.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fis-glob%2F-%2Fis-glob-4.0.1.tgz#7567dbe9f2f5e2467bc77ab83c4a29482407a5dc"
+  integrity sha1-dWfb6fL14kZ7x3q4PEopSCQHpdw=
+  dependencies:
+    is-extglob "^2.1.1"
 
 is-module@^1.0.0:
   version "1.0.0"
@@ -2580,7 +2846,12 @@ is-typedarray@^1.0.0, is-typedarray@~1.0.0:
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/is-typedarray/-/is-typedarray-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-typedarray%2F-%2Fis-typedarray-1.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fis-typedarray%2F-%2Fis-typedarray-1.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fis-typedarray%2F-%2Fis-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
   integrity sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
 
-is-windows@^1.0.2:
+is-utf8@^0.2.1:
+  version "0.2.1"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/is-utf8/-/is-utf8-0.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-utf8%2F-%2Fis-utf8-0.2.1.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fis-utf8%2F-%2Fis-utf8-0.2.1.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fis-utf8%2F-%2Fis-utf8-0.2.1.tgz#4b0da1442104d1b336340e80797e865cf39f7d72"
+  integrity sha1-Sw2hRCEE0bM2NA6AeX6GXPOffXI=
+
+is-windows@^1.0.1, is-windows@^1.0.2:
   version "1.0.2"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/is-windows/-/is-windows-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fis-windows%2F-%2Fis-windows-1.0.2.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fis-windows%2F-%2Fis-windows-1.0.2.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fis-windows%2F-%2Fis-windows-1.0.2.tgz#d1850eb9791ecd18e6182ce12a30f396634bb19d"
   integrity sha1-0YUOuXkezRjmGCzhKjDzlmNLsZ0=
@@ -3125,6 +3396,13 @@ json5@^2.1.2:
   dependencies:
     minimist "^1.2.5"
 
+jsonfile@^4.0.0:
+  version "4.0.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/jsonfile/-/jsonfile-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fjsonfile%2F-%2Fjsonfile-4.0.0.tgz#8771aae0799b64076b76640fca058f9c10e33ecb"
+  integrity sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=
+  optionalDependencies:
+    graceful-fs "^4.1.6"
+
 jsprim@^1.2.2:
   version "1.4.1"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/jsprim/-/jsprim-1.4.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fjsprim%2F-%2Fjsprim-1.4.1.tgz#313e66bc1e5cc06e438bc1b7499c2e5c56acb6a2"
@@ -3199,15 +3477,25 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
+lodash.map@^4.5.1:
+  version "4.6.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/lodash.map/-/lodash.map-4.6.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Flodash.map%2F-%2Flodash.map-4.6.0.tgz#771ec7839e3473d9c4cde28b19394c3562f4f6d3"
+  integrity sha1-dx7Hg540c9nEzeKLGTlMNWL09tM=
+
 lodash.sortby@^4.7.0:
   version "4.7.0"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/lodash.sortby/-/lodash.sortby-4.7.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Flodash.sortby%2F-%2Flodash.sortby-4.7.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Flodash.sortby%2F-%2Flodash.sortby-4.7.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Flodash.sortby%2F-%2Flodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
-lodash@^4.17.19:
+lodash@^4.17.12, lodash@^4.17.19, lodash@^4.17.20:
   version "4.17.20"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/lodash/-/lodash-4.17.20.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Flodash%2F-%2Flodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha1-tEqbYpe8tpjxxRo1RaKzs2jVnFI=
+
+longest@^2.0.1:
+  version "2.0.1"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/longest/-/longest-2.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Flongest%2F-%2Flongest-2.0.1.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Flongest%2F-%2Flongest-2.0.1.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Flongest%2F-%2Flongest-2.0.1.tgz#781e183296aa94f6d4d916dc335d0d17aefa23f8"
+  integrity sha1-eB4YMpaqlPbU2RbcM10NF676I/g=
 
 lru-cache@^6.0.0:
   version "6.0.0"
@@ -3259,7 +3547,12 @@ merge-stream@^2.0.0:
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/merge-stream/-/merge-stream-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmerge-stream%2F-%2Fmerge-stream-2.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fmerge-stream%2F-%2Fmerge-stream-2.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fmerge-stream%2F-%2Fmerge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
   integrity sha1-UoI2KaFN0AyXcPtq1H3GMQ8sH2A=
 
-micromatch@^3.1.4:
+merge@^1.2.1:
+  version "1.2.1"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/merge/-/merge-1.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmerge%2F-%2Fmerge-1.2.1.tgz#38bebf80c3220a8a487b6fcfb3941bb11720c145"
+  integrity sha1-OL6/gMMiCopIe2/Ps5QbsRcgwUU=
+
+micromatch@^3.0.4, micromatch@^3.1.4:
   version "3.1.10"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/micromatch/-/micromatch-3.1.10.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmicromatch%2F-%2Fmicromatch-3.1.10.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fmicromatch%2F-%2Fmicromatch-3.1.10.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fmicromatch%2F-%2Fmicromatch-3.1.10.tgz#70859bc95c9840952f359a068a3fc49f9ecfac23"
   integrity sha1-cIWbyVyYQJUvNZoGij/En57PrCM=
@@ -3298,6 +3591,11 @@ mime-types@^2.1.12, mime-types@~2.1.19:
   dependencies:
     mime-db "1.44.0"
 
+mimic-fn@^1.0.0:
+  version "1.2.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/mimic-fn/-/mimic-fn-1.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmimic-fn%2F-%2Fmimic-fn-1.2.0.tgz#820c86a39334640e99516928bd03fca88057d022"
+  integrity sha1-ggyGo5M0ZA6ZUWkovQP8qIBX0CI=
+
 mimic-fn@^2.1.0:
   version "2.1.0"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/mimic-fn/-/mimic-fn-2.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmimic-fn%2F-%2Fmimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
@@ -3310,7 +3608,7 @@ minimatch@^3.0.4:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
+minimist@1.2.5, minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
   version "1.2.5"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/minimist/-/minimist-1.2.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fminimist%2F-%2Fminimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=
@@ -3332,6 +3630,11 @@ ms@2.1.2:
   version "2.1.2"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/ms/-/ms-2.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fms%2F-%2Fms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha1-0J0fNXtEP0kzgqjrPM0YOHKuYAk=
+
+mute-stream@0.0.7:
+  version "0.0.7"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/mute-stream/-/mute-stream-0.0.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmute-stream%2F-%2Fmute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
+  integrity sha1-MHXOk7whuPq0PhvE2n6BFe0ee6s=
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -3498,6 +3801,13 @@ once@^1.3.0, once@^1.3.1, once@^1.4.0:
   dependencies:
     wrappy "1"
 
+onetime@^2.0.0:
+  version "2.0.1"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/onetime/-/onetime-2.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fonetime%2F-%2Fonetime-2.0.1.tgz#067428230fd67443b2794b22bba528b6867962d4"
+  integrity sha1-BnQoIw/WdEOyeUsiu6UotoZ5YtQ=
+  dependencies:
+    mimic-fn "^1.0.0"
+
 onetime@^5.1.0:
   version "5.1.2"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/onetime/-/onetime-5.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fonetime%2F-%2Fonetime-5.1.2.tgz#d0e96ebb56b07476df1dd9c4806e5237985ca45e"
@@ -3516,6 +3826,11 @@ optionator@^0.8.1:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
     word-wrap "~1.2.3"
+
+os-tmpdir@~1.0.2:
+  version "1.0.2"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/os-tmpdir/-/os-tmpdir-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fos-tmpdir%2F-%2Fos-tmpdir-1.0.2.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fos-tmpdir%2F-%2Fos-tmpdir-1.0.2.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fos-tmpdir%2F-%2Fos-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
+  integrity sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=
 
 p-each-series@^2.1.0:
   version "2.2.0"
@@ -3570,6 +3885,11 @@ parse-json@^5.0.0:
     error-ex "^1.3.1"
     json-parse-even-better-errors "^2.3.0"
     lines-and-columns "^1.1.6"
+
+parse-passwd@^1.0.0:
+  version "1.0.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/parse-passwd/-/parse-passwd-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fparse-passwd%2F-%2Fparse-passwd-1.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fparse-passwd%2F-%2Fparse-passwd-1.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fparse-passwd%2F-%2Fparse-passwd-1.0.0.tgz#6d5b934a456993b23d37f40a382d6f1666a8e5c6"
+  integrity sha1-bVuTSkVpk7I9N/QKOC1vFmao5cY=
 
 parse5@5.1.1:
   version "5.1.1"
@@ -3871,6 +4191,14 @@ resolve-cwd@^3.0.0:
   dependencies:
     resolve-from "^5.0.0"
 
+resolve-dir@^1.0.0, resolve-dir@^1.0.1:
+  version "1.0.1"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/resolve-dir/-/resolve-dir-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fresolve-dir%2F-%2Fresolve-dir-1.0.1.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fresolve-dir%2F-%2Fresolve-dir-1.0.1.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fresolve-dir%2F-%2Fresolve-dir-1.0.1.tgz#79a40644c362be82f26effe739c9bb5382046f43"
+  integrity sha1-eaQGRMNivoLybv/nOcm7U4IEb0M=
+  dependencies:
+    expand-tilde "^2.0.0"
+    global-modules "^1.0.0"
+
 resolve-from@^4.0.0:
   version "4.0.0"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/resolve-from/-/resolve-from-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fresolve-from%2F-%2Fresolve-from-4.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fresolve-from%2F-%2Fresolve-from-4.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fresolve-from%2F-%2Fresolve-from-4.0.0.tgz#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
@@ -3880,6 +4208,13 @@ resolve-from@^5.0.0:
   version "5.0.0"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/resolve-from/-/resolve-from-5.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fresolve-from%2F-%2Fresolve-from-5.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fresolve-from%2F-%2Fresolve-from-5.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fresolve-from%2F-%2Fresolve-from-5.0.0.tgz#c35225843df8f776df21c57557bc087e9dfdfc69"
   integrity sha1-w1IlhD3493bfIcV1V7wIfp39/Gk=
+
+resolve-global@^1.0.0:
+  version "1.0.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/resolve-global/-/resolve-global-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fresolve-global%2F-%2Fresolve-global-1.0.0.tgz#a2a79df4af2ca3f49bf77ef9ddacd322dad19255"
+  integrity sha1-oqed9K8so/Sb93753azTItrRklU=
+  dependencies:
+    global-dirs "^0.1.1"
 
 resolve-url@^0.2.1:
   version "0.2.1"
@@ -3893,6 +4228,14 @@ resolve@^1.10.0, resolve@^1.17.0, resolve@^1.18.1, resolve@^1.19.0:
   dependencies:
     is-core-module "^2.1.0"
     path-parse "^1.0.6"
+
+restore-cursor@^2.0.0:
+  version "2.0.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/restore-cursor/-/restore-cursor-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Frestore-cursor%2F-%2Frestore-cursor-2.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Frestore-cursor%2F-%2Frestore-cursor-2.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Frestore-cursor%2F-%2Frestore-cursor-2.0.0.tgz#9f7ee287f82fd326d4fd162923d62129eee0dfaf"
+  integrity sha1-n37ih/gv0ybU/RYpI9YhKe7g368=
+  dependencies:
+    onetime "^2.0.0"
+    signal-exit "^3.0.2"
 
 ret@~0.1.10:
   version "0.1.15"
@@ -3917,6 +4260,18 @@ rsvp@^4.8.4:
   version "4.8.5"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/rsvp/-/rsvp-4.8.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Frsvp%2F-%2Frsvp-4.8.5.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Frsvp%2F-%2Frsvp-4.8.5.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Frsvp%2F-%2Frsvp-4.8.5.tgz#c8f155311d167f68f21e168df71ec5b083113734"
   integrity sha1-yPFVMR0Wf2jyHhaN9x7FsIMRNzQ=
+
+run-async@^2.2.0:
+  version "2.4.1"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/run-async/-/run-async-2.4.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Frun-async%2F-%2Frun-async-2.4.1.tgz#8440eccf99ea3e70bd409d49aab88e10c189a455"
+  integrity sha1-hEDsz5nqPnC9QJ1JqriOEMGJpFU=
+
+rxjs@^6.4.0:
+  version "6.6.3"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/rxjs/-/rxjs-6.6.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Frxjs%2F-%2Frxjs-6.6.3.tgz#8ca84635c4daa900c0d3967a6ee7ac60271ee552"
+  integrity sha1-jKhGNcTaqQDA05Z6buesYCce5VI=
+  dependencies:
+    tslib "^1.9.0"
 
 safe-buffer@^5.0.1, safe-buffer@^5.1.2:
   version "5.2.1"
@@ -4203,6 +4558,14 @@ string-length@^4.0.1:
     char-regex "^1.0.2"
     strip-ansi "^6.0.0"
 
+string-width@^2.1.0:
+  version "2.1.1"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/string-width/-/string-width-2.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fstring-width%2F-%2Fstring-width-2.1.1.tgz#ab93f27a8dc13d28cac815c462143a6d9012ae9e"
+  integrity sha1-q5Pyeo3BPSjKyBXEYhQ6bZASrp4=
+  dependencies:
+    is-fullwidth-code-point "^2.0.0"
+    strip-ansi "^4.0.0"
+
 string-width@^4.1.0, string-width@^4.2.0:
   version "4.2.0"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/string-width/-/string-width-4.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fstring-width%2F-%2Fstring-width-4.2.0.tgz#952182c46cc7b2c313d1596e623992bd163b72b5"
@@ -4237,6 +4600,20 @@ string.prototype.trimstart@^1.0.1:
     call-bind "^1.0.0"
     define-properties "^1.1.3"
 
+strip-ansi@^4.0.0:
+  version "4.0.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/strip-ansi/-/strip-ansi-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fstrip-ansi%2F-%2Fstrip-ansi-4.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fstrip-ansi%2F-%2Fstrip-ansi-4.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fstrip-ansi%2F-%2Fstrip-ansi-4.0.0.tgz#a8479022eb1ac368a871389b635262c505ee368f"
+  integrity sha1-qEeQIusaw2iocTibY1JixQXuNo8=
+  dependencies:
+    ansi-regex "^3.0.0"
+
+strip-ansi@^5.1.0:
+  version "5.2.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/strip-ansi/-/strip-ansi-5.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fstrip-ansi%2F-%2Fstrip-ansi-5.2.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fstrip-ansi%2F-%2Fstrip-ansi-5.2.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fstrip-ansi%2F-%2Fstrip-ansi-5.2.0.tgz#8c9a536feb6afc962bdfa5b104a5091c1ad9c0ae"
+  integrity sha1-jJpTb+tq/JYr36WxBKUJHBrZwK4=
+  dependencies:
+    ansi-regex "^4.1.0"
+
 strip-ansi@^6.0.0:
   version "6.0.0"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/strip-ansi/-/strip-ansi-6.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fstrip-ansi%2F-%2Fstrip-ansi-6.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fstrip-ansi%2F-%2Fstrip-ansi-6.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fstrip-ansi%2F-%2Fstrip-ansi-6.0.0.tgz#0b1571dd7669ccd4f3e06e14ef1eed26225ae532"
@@ -4244,15 +4621,15 @@ strip-ansi@^6.0.0:
   dependencies:
     ansi-regex "^5.0.0"
 
+strip-bom@4.0.0, strip-bom@^4.0.0:
+  version "4.0.0"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/strip-bom/-/strip-bom-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fstrip-bom%2F-%2Fstrip-bom-4.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fstrip-bom%2F-%2Fstrip-bom-4.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fstrip-bom%2F-%2Fstrip-bom-4.0.0.tgz#9c3505c1db45bcedca3d9cf7a16f5c5aa3901878"
+  integrity sha1-nDUFwdtFvO3KPZz3oW9cWqOQGHg=
+
 strip-bom@^3.0.0:
   version "3.0.0"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/strip-bom/-/strip-bom-3.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fstrip-bom%2F-%2Fstrip-bom-3.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fstrip-bom%2F-%2Fstrip-bom-3.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fstrip-bom%2F-%2Fstrip-bom-3.0.0.tgz#2334c18e9c759f7bdd56fdef7e9ae3d588e68ed3"
   integrity sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM=
-
-strip-bom@^4.0.0:
-  version "4.0.0"
-  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/strip-bom/-/strip-bom-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fstrip-bom%2F-%2Fstrip-bom-4.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fstrip-bom%2F-%2Fstrip-bom-4.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fstrip-bom%2F-%2Fstrip-bom-4.0.0.tgz#9c3505c1db45bcedca3d9cf7a16f5c5aa3901878"
-  integrity sha1-nDUFwdtFvO3KPZz3oW9cWqOQGHg=
 
 strip-eof@^1.0.0:
   version "1.0.0"
@@ -4263,6 +4640,11 @@ strip-final-newline@^2.0.0:
   version "2.0.0"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/strip-final-newline/-/strip-final-newline-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fstrip-final-newline%2F-%2Fstrip-final-newline-2.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fstrip-final-newline%2F-%2Fstrip-final-newline-2.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fstrip-final-newline%2F-%2Fstrip-final-newline-2.0.0.tgz#89b852fb2fcbe936f6f4b3187afb0a12c1ab58ad"
   integrity sha1-ibhS+y/L6Tb29LMYevsKEsGrWK0=
+
+strip-json-comments@3.0.1:
+  version "3.0.1"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/strip-json-comments/-/strip-json-comments-3.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fstrip-json-comments%2F-%2Fstrip-json-comments-3.0.1.tgz#85713975a91fb87bf1b305cca77395e40d2a64a7"
+  integrity sha1-hXE5dakfuHvxswXMp3OV5A0qZKc=
 
 supports-color@^5.3.0:
   version "5.5.0"
@@ -4312,6 +4694,18 @@ throat@^5.0.0:
   version "5.0.0"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/throat/-/throat-5.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fthroat%2F-%2Fthroat-5.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fthroat%2F-%2Fthroat-5.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fthroat%2F-%2Fthroat-5.0.0.tgz#c5199235803aad18754a667d659b5e72ce16764b"
   integrity sha1-xRmSNYA6rRh1SmZ9ZZtecs4Wdks=
+
+through@^2.3.6:
+  version "2.3.8"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/through/-/through-2.3.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fthrough%2F-%2Fthrough-2.3.8.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fthrough%2F-%2Fthrough-2.3.8.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fthrough%2F-%2Fthrough-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
+  integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
+
+tmp@^0.0.33:
+  version "0.0.33"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/tmp/-/tmp-0.0.33.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftmp%2F-%2Ftmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
+  integrity sha1-bTQzWIl2jSGyvNoKonfO07G/rfk=
+  dependencies:
+    os-tmpdir "~1.0.2"
 
 tmpl@1.0.x:
   version "1.0.4"
@@ -4378,6 +4772,11 @@ tr46@^2.0.2:
   integrity sha1-Ayc1ht7xWVrgj+2zjXczzukdJHk=
   dependencies:
     punycode "^2.1.1"
+
+tslib@^1.9.0:
+  version "1.14.1"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/tslib/-/tslib-1.14.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftslib%2F-%2Ftslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
+  integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
 
 tunnel-agent@^0.6.0:
   version "0.6.0"
@@ -4457,6 +4856,11 @@ union-value@^1.0.0:
     get-value "^2.0.6"
     is-extendable "^0.1.1"
     set-value "^2.0.1"
+
+universalify@^0.1.0:
+  version "0.1.2"
+  resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/universalify/-/universalify-0.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Funiversalify%2F-%2Funiversalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
+  integrity sha1-tkb2m+OULavOzJ1mOcgNwQXvqmY=
 
 unset-value@^1.0.0:
   version "1.0.0"
@@ -4576,7 +4980,7 @@ which-module@^2.0.0:
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/which-module/-/which-module-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fwhich-module%2F-%2Fwhich-module-2.0.0.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fwhich-module%2F-%2Fwhich-module-2.0.0.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fwhich-module%2F-%2Fwhich-module-2.0.0.tgz#d9ef07dce77b9902b8a3a8fa4b31c3e3f7e6e87a"
   integrity sha1-2e8H3Od7mQK4o6j6SzHD4/fm6Ho=
 
-which@^1.2.9:
+which@^1.2.14, which@^1.2.9:
   version "1.3.1"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/which/-/which-1.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fwhich%2F-%2Fwhich-1.3.1.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fwhich%2F-%2Fwhich-1.3.1.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fwhich%2F-%2Fwhich-1.3.1.tgz#a45043d54f5805316da8d62f9f50918d3da70b0a"
   integrity sha1-pFBD1U9YBTFtqNYvn1CRjT2nCwo=
@@ -4590,7 +4994,7 @@ which@^2.0.1, which@^2.0.2:
   dependencies:
     isexe "^2.0.0"
 
-word-wrap@~1.2.3:
+word-wrap@^1.0.3, word-wrap@~1.2.3:
   version "1.2.3"
   resolved "https://eu.artifactory.swg-devops.com/artifactory/api/npm/wcp-carbon-npm-virtual/word-wrap/-/word-wrap-1.2.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fword-wrap%2F-%2Fword-wrap-1.2.3.tgz&dl=https%3A%2F%2Feu-sl.artifactory.swg-devops.com%3A443%2Fartifactory%2Fapi%2Fnpm%2Ftaas-central-npm-virtual%2Fword-wrap%2F-%2Fword-wrap-1.2.3.tgz%3Fdl%3Dhttps%3A%2F%2Fregistry.npmjs.org%2Fword-wrap%2F-%2Fword-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
   integrity sha1-YQY29rH3A4kb00dxzLF/uTtHB5w=
