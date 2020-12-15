@@ -1,0 +1,4 @@
+**/*.bs.js
+dist
+lib
+coverage
