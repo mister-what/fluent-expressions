@@ -1,30 +1,30 @@
-import Sx from "../src";
+import Fx from "../src";
 
 test("should build a uuid regexp via SolidExpressions", () => {
-  const hexBlock = Sx().charOfRanges(["0", "9"], ["a", "f"]);
-  const sx = hexBlock
+  const hexBlock = Fx().charOfRanges(["0", "9"], ["a", "f"]);
+  const fx = hexBlock
     .repeatExactly(8)
     .then("-")
     .then(hexBlock.repeatExactly(4).then("-").repeatExactly(3))
     .then(hexBlock.repeatExactly(12))
     .withAnyCase()
     .searchOneLine();
-  const regex = sx.compile();
+  const regex = fx.compile();
   expect(`/${regex.source}/${regex.flags}`).toMatchInlineSnapshot(
     `"/[0-9a-f]{8}-(?:[0-9a-f]{4}-){3}[0-9a-f]{12}/gi"`
   );
 });
 test("should build regexp via SolidExpressions", () => {
-  const sx = Sx(/^test_expr$/)
-    .maybe(Sx.whitespace)
-    .then(Sx("hello").repeat(1, 3).capture("hellos"))
+  const fx = Fx(/^test_expr$/)
+    .maybe(Fx.whitespace)
+    .then(Fx("hello").repeat(1, 3).capture("hellos"))
     .repeat(1, 4)
-    .then(Sx.whitespace.oneOrMore())
-    .maybe(Sx("world").or("World").group("worldGroup"))
+    .then(Fx.whitespace.oneOrMore())
+    .maybe(Fx("world").or("World").group("worldGroup"))
     .followedBy("!")
     .then(/./);
 
-  const regex = sx.compile();
+  const regex = fx.compile();
   expect(regex.source).toMatchInlineSnapshot(
     `"^(?:test_expr(?:\\\\s)?(?<hellos>(?:hello){1,3})){1,4}(?:\\\\s)+(?<worldGroup>world|World)?(?=!)."`
   );

@@ -1,2 +1,2 @@
-import Sx from "./SolidExpression";
-export = Sx;
+import Fx from "./FluentExpression";
+export = Fx;

@@ -1,2 +1,2 @@
-import Sx from "./SolidExpression";
-export default Sx;
+import Fx from "./FluentExpression";
+export default Fx;
